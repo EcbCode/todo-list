@@ -1,0 +1,28 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.createdTasks, .concludedTasks{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.createdTasks > strong{
+    color: var(--blue-500);
+}
+
+.concludedTasks > strong{
+    color: var(--purple-500);
+}
+
+.createdTasks > span, .concludedTasks > span{
+    background-color: var(--gray-400);
+    color: var(--gray-200);
+    padding: 0.125rem 0.5rem;
+    line-height: 1;
+    border-radius: 1rem;
+}
