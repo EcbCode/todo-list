@@ -30,6 +30,11 @@
     border: 1px solid var(--gray-700);
 }
 
+.taskInput  > input:focus{
+    color: var(--gray-100);
+    border: 1px solid var(--purple-700);
+}
+
 .taskInput > button{
     height: 100%;
     padding: 16px;
